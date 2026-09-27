@@ -1,0 +1,3 @@
+# Optional real embedding and cross-encoder backends; downloads are required.
+-r requirements.txt
+sentence-transformers==4.1.0

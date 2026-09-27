@@ -1,0 +1,8 @@
+gate,measured,threshold,status
+G1 Reproducibility,single-command offline evaluation configured,clean local run and generated report artifacts,VERIFY_ON_CLEAN_MACHINE
+G2 Early retrieval,1.0,>= 0.80,PASS
+G3 Multi-intent,1.0,>= 0.70,PASS
+G4 Citation grounding,1.0,>= 0.85 citation coverage and support; zero fabricated citations,PASS
+G5 Session refinement,versions=1.0; continuity=1.0,versioned refinements and preserved citations on cosmetic turns,PASS
+G6 Telemetry,72 events; required fields=present,100% turn trace coverage,PASS
+Ablation coverage,6 retrieval configurations,retrieval mode and reranking comparisons,PASS

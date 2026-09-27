@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  # Service to run the Evaluation (Gate G1 Clean Test)
+  eval:
+    build: .
+    container_name: samsung-rag-eval
+    command: python component5/run_eval.py
+
+  # Service to run the Offline Demo
+  demo:
+    build: .
+    container_name: samsung-rag-demo
+    command: python demo_full_pipeline.py --backend offline --demo --corpus-dir component5/demo_corpus

@@ -1,0 +1,4 @@
+variant,turns,retrievals,retrieval_rate,recall@3,mrr,decision_accuracy,early_retrieval_rate,multi_intent_rate,citation_support_rate,fabricated_citations,cache_reuse_rate,refinement_accuracy,latency_mean_ms,latency_p95_ms
+A_always_retrieve,24,24,1.0,0.976,1.0,0.583,1.0,0.0,0.583,0,0.0,0.429,1.86,2.01
+B_controller_only,24,14,0.583,1.0,0.964,1.0,1.0,1.0,0.583,0,0.0,0.5,2.77,8.34
+C_full_pipeline,24,14,0.583,1.0,0.964,1.0,1.0,1.0,0.75,0,1.0,1.0,2.13,4.86

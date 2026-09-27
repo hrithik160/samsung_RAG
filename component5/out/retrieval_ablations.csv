@@ -1,0 +1,7 @@
+mode,rerank,queries,recall_at_3,mrr,latency_mean_ms
+hybrid,True,14,0.9762,1.0,4.972
+hybrid,False,14,0.9762,0.9286,5.044
+dense,True,14,0.9762,1.0,4.762
+dense,False,14,0.6429,0.631,4.594
+sparse,True,14,1.0,0.9643,5.55
+sparse,False,14,1.0,0.9643,4.66
